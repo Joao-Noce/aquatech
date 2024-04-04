@@ -88,7 +88,7 @@ body {
     width: 100px;
 }
 
-.social .container .box h2 {
+h2 {
     color: crimson;
 }
 
@@ -105,4 +105,59 @@ body {
 
 .footer .container {
     justify-content: center;
+}
+
+.tela_cadastro {
+    background-image: url(assets/bg-jelly-fish-para_outras_pags.png);
+    height: 600px;
+}
+
+.tela_cadastro .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.tela_cadastro .container .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightgray;
+    width: 350px;
+    height: 400px;
+    border-radius: 5px;
+}
+
+.tela_cadastro .container .box input {
+    border: solid #32B9CD 2px;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.tela_cadastro .container .box .input_box {
+    /* border: solid red 2px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 200px;
+    height: 270px;
+    color: crimson;
+}
+
+.tela_cadastro .container .box button {
+    width: 120px;
+    height: 35px;
+    background-color: crimson;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.tela_cadastro .container .box button:hover {
+    background-color: #32B9CD;
+    color: crimson;
 }
